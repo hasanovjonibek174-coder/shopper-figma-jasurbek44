@@ -1,0 +1,486 @@
+body {
+    background-color: rgb(246, 245, 245);
+}
+
+@media(max-width: 992px) {
+    .row {
+        display: block;
+    }
+}
+
+
+.header {
+    padding: 30px 0 50px 0;
+}
+
+.header__top {
+    padding: 0 0 50px 0;
+}
+
+.header__bottom {
+    background-color: rgba(16, 185, 129, 1);
+}
+
+span {
+    color: rgba(16, 185, 129, 1);
+}
+
+.header__inp input {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.header__btn {
+    display: flex;
+    gap: 40px;
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn-transparent {
+    border-color: rgba(16, 185, 129, 1);
+    color: rgba(16, 185, 129, 1);
+}
+
+.btn-transparent:hover {
+    transition: 0.3s;
+    color: rgba(16, 185, 129, 1);
+}
+
+.btn-green {
+    color: white;
+    background-color: rgba(16, 185, 129, 1)
+}
+
+.btn-green:hover {
+    transition: 0.3s;
+    border-color: rgba(16, 185, 129, 1);
+    color: rgba(16, 185, 129, 1);
+}
+
+.header__bars {
+    font-size: 30px;
+    display: none;
+}
+
+@media(max-width: 992px) {
+    .header__bars {
+        display: block;
+    }
+
+    .header__btn button:nth-child(1) {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    .header__bars {
+        display: block;
+    }
+
+    .header__btn button:nth-child(2) {
+        display: none;
+    }
+}
+
+@media(max-width: 576px) {
+    .header__inp input {
+        display: none;
+    }
+}
+
+.header__menu {
+    padding: 10px;
+}
+
+.header__menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.header__menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* home home home home home home home home home home home */
+/* home home home home home home home home home home home */
+/* home home home home home home home home home home home */
+
+.home__title h1 {
+    font-size: 64px;
+}
+
+@media(max-width: 576px) {
+    .home__title h1 {
+        font-size: 32px;
+    }
+}
+
+.home__card {
+    text-align: center;
+}
+
+/* apple apple apple apple apple apple apple apple apple apple apple */
+/* apple apple apple apple apple apple apple apple apple apple apple */
+/* apple apple apple apple apple apple apple apple apple apple apple */
+
+.apple {
+    position: relative;
+    background-color: #845EC2;
+    padding: 180px 0px 0px 0px;
+    color: white;
+    text-align: center;
+}
+
+.apple__title h1 {
+    font-size: 60px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+
+.apple img {
+    padding: 15px;
+}
+
+.apple__img img:nth-child(2) {
+    transform: translateY(-50px);
+}
+
+.apple__img {
+    display: flex;
+    z-index: 99;
+}
+
+
+@media(max-width: 768px) {
+    .apple__img {
+        display: block;
+    }
+
+    .apple__img img:nth-child(2) {
+        padding: 100px 0 0 0;
+    }
+}
+
+.apple .box .box__title h1 {
+    font-size: 60px;
+    z-index: 0;
+    position: absolute;
+    right: 780px;
+    color: black;
+}
+
+/* picks picks picks picks picks picks picks */
+/* picks picks picks picks picks picks picks */
+/* picks picks picks picks picks picks picks */
+
+.picks__box {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.card {
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.card-green {
+    background-color: rgba(236, 254, 244, 1);
+}
+
+.card-blue {
+    background-color: rgba(201, 242, 255, 1);
+}
+
+.card-pink {
+    background-color: rgba(229, 213, 255, 1);
+}
+
+
+.picks .card:nth-child(2) {
+    background-color: #fff;
+}
+
+.card .card__content {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.btn-card {
+    width: 100%;
+    margin: 20px 0px;
+    background-color: #10B981;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-card:hover {
+    border: 1px solid #000;
+    border-color: rgba(16, 185, 129, 1);
+    color: rgba(16, 185, 129, 1);
+}
+
+.card__img img {
+    width: 70%;
+
+}
+
+.fa-star {
+    color: red;
+}
+
+.picks__btn {
+    padding: 30px;
+}
+
+
+.btn-title {
+    font-family: sans-serif;
+}
+
+.btn-title:hover {
+    color: #000;
+    border: 1px solid #000;
+
+}
+
+/* wired wired wired wired wired wired wired wired */
+/* wired wired wired wired wired wired wired wired */
+/* wired wired wired wired wired wired wired wired */
+
+.wired .card:nth-child(2) {
+    background-color: #fff;
+}
+
+.card-darkblue {
+    background-color: rgba(224, 239, 255, 1);
+}
+
+.card-skyblue {
+    background-color: rgba(232, 249, 255, 1);
+}
+
+.card-cobalt {
+    background-color: rgba(211, 251, 251, 1);
+}
+
+
+.card .card__content {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card__img img {
+    width: 68%;
+
+}
+
+.wired__box {
+    text-align: center;
+    padding: 100px 0;
+}
+
+/*  airdrop airdrop airdrop airdrop airdrop airdrop */
+/*  airdrop airdrop airdrop airdrop airdrop airdrop */
+/*  airdrop airdrop airdrop airdrop airdrop airdrop */
+
+.airdrop {
+    padding: 80px 0;
+    background-color: #845EC2;
+    color: #fff;
+}
+
+.airdrop .row {
+    background-color: rgba(132, 94, 194, 1);
+
+}
+
+.title h1 {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.airdrop__title h2 {
+    font-weight: 100px;
+}
+
+.airdrop__img img {
+    height: 370px;
+    padding: 0 10px;
+}
+
+.airdrop__img img:nth-child(2) {
+    padding: 0 10px;
+    transform: translatey(60px);
+}
+
+.airdrop__title h2 {
+    font-size: 50px;
+}
+
+.airdrop__title p {
+    font-size: 20px;
+}
+
+.airdrop__color {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.airdrop__color h6 {
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.airdrop__color h6:nth-child(1) {
+    background-color: #000;
+    color: #000;
+}
+
+.airdrop__color h6:nth-child(2) {
+    background-color: rgba(255, 245, 0, 1);
+    color: rgba(255, 245, 0, 1);
+}
+
+.airdrop__color h6:nth-child(3) {
+    background-color: rgba(68, 132, 255, 1);
+    color: rgba(68, 132, 255, 1);
+}
+
+.airdrop__btn {
+    padding: 40px 0 0 0;
+}
+
+.airdrop__btn button {
+    padding: 15px 60px;
+    border-radius: 20px;
+}
+
+.airdrop__btn button:hover {
+    transition: 0.3s;
+}
+
+
+
+/* footer footer footer footer footer footer footer */
+/* footer footer footer footer footer footer footer */
+/* footer footer footer footer footer footer footer */
+
+.footer {
+    padding: 100px 0;
+}
+
+.footer__title {
+    display: flex;
+    gap: 20px;
+    padding: 0 0 100px 0;
+}
+
+.footer__title h5 {
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+
+.footer__menu ul {
+    list-style-type: none;
+}
+
+.footer__menu ul li a {
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+}
+
+span {
+    color: rgba(16, 185, 129, 1);
+}
+
+@media(max-width: 768px) {
+    .footer__title {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    * {
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px) {
+    img {
+        width: 50%;
+    }
+}
+
+@media(max-width: 768px) {
+    .airdrop__img {
+        padding: 0 0 100px 0 !important;
+    }
+}
+
+@media(max-width: 576px) {
+    .airdrop__img {
+        padding: 0 0 100px 0 !important;
+    }
+}
+
+@media(max-width: 576px) {
+    .airdrop__img:nth-child(2) {
+        padding: 0;
+    }
+}
+
+@media(max-width: 576px) {
+    .btn {
+        margin: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-secondary {
+    background-color: aqua;
+    color: #000;
+}
+
+.btn-secondary:hover {
+    color: aqua;
+    background-color: #000;
+}
+
+.dropdown {
+    padding: 50px 100px;
+}
+
+.card-green {
+    margin: 10px 0;
+}
+
+.card-blue {
+    margin: 10px 0;
+}
+
+.card-pink {
+    margin: 10px 0;
+}
